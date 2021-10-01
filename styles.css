@@ -1,0 +1,66 @@
+.page1 {
+    height: 100vh;
+
+}
+.box {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin: 4px;
+    display: inline-block;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.toCircle {
+    background-color: grey;
+}
+
+.page2{
+    height: 100vh;
+    background-image: linear-gradient(black, grey);
+    
+}
+
+.page2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ball {
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    z-index: 100;
+}
+
+#demo-svg {
+    position: absolute;
+    top: 400px;
+    left:20px;
+}
+
+.page4{
+    height: 100vh;
+}
